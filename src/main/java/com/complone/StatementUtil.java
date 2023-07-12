@@ -225,7 +225,7 @@ public class StatementUtil {
         Iterator<SqlSpecailParseStrategy> iterator = loader.iterator();
         while (iterator.hasNext()) {
             SqlSpecailParseStrategy strategy = iterator.next();
-            if (strategy.validate(stmt, isFlinkParser)) {
+            if (strategy.validate(st。mt, isFlinkParser)) {
                 return strategy.apply(stmt, isFlinkParser);
             }
         }
