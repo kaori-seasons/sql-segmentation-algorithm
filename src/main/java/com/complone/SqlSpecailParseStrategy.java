@@ -1,7 +1,5 @@
 package com.complone;
 
-import com.complone.SqlOperation;
-
 import java.util.Optional;
 
 public interface SqlSpecailParseStrategy {

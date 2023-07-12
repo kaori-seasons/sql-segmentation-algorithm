@@ -1,21 +1,9 @@
 package com.complone;
 
-import com.complone.SqlOperationEnum;
-import com.complone.TableInsert;
-import com.complone.SqlStatemenetParser;
-import com.complone.StatementParser;
-import com.complone.SqlParseException;
-import com.complone.SqlOperation;
-import com.complone.GsonUtils;
-import org.apache.calcite.sql.SqlNode;
-import org.apache.calcite.sql.SqlNodeList;
-import org.apache.calcite.sql.parser.SqlParser;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class SqlStatementParseTest {
 
